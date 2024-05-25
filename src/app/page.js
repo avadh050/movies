@@ -1,8 +1,11 @@
 import React from 'react'
+import Hero from './Components/Hero'
 
 const page = () => {
   return (
-    <div>avadh raiyani</div>
+    <div>
+      <Hero title={"LET'S WATCH MOVIES TOGATHER"} imageURL={"/home.svg"}/>
+    </div>
   )
 }
 
